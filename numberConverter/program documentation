@@ -1,0 +1,83 @@
+# 📗 Program Documentation
+
+## 1.Program Title
+
+C++ Number System Converter
+
+## 2. Purpose
+
+The purpose of this program is to automate number system conversions and provide users with an easy-to-use interface for working with different bases and binary complements.
+
+## 3. Problem Definition
+
+Manual number system conversion is error-prone and time-consuming. Automating these conversions makes the process faster, accurate, and user-friendly.
+
+## 4. Solution Approach
+
+Implement conversion algorithms in C++ functions.
+
+Provide a text-based GUI for interaction.
+
+Ensure compatibility with old compilers (Falcon C++).
+
+## 5. Features
+
+Decimal ↔ Binary
+
+Decimal ↔ Octal
+
+Decimal ↔ Hexadecimal
+
+1’s Complement of Binary
+
+2’s Complement of Binary
+
+Negative number support
+
+## 6. Input & Output Examples
+
+Example 1: Decimal → Binary
+Input: 10
+Output: Binary = 1010
+
+Example 2: Binary → Decimal
+Input: -1010
+Output: Decimal = -10
+
+Example 3: Binary → 1’s Complement
+Input: 1010
+Output: 1’s Complement = 0101
+
+Example 4: Binary → 2’s Complement
+Input: 1010
+Output: 2’s Complement = 0110
+
+## 7. Code Structure
+
+Main Menu: Provides user options.
+
+Functions:
+
+decimalToBinary(), binaryToDecimal()
+
+decimalToOctal(), octalToDecimal()
+
+decimalToHex(), hexToDecimal()
+
+onesComplement(), twosComplement()
+
+## 8. Limitations
+
+Only supports integers (no floating-point conversions).
+
+Complements only work for binary inputs.
+
+Console-based (not graphical).
+
+## 9. Future Improvements
+
+Add floating-point number conversions.
+
+Extend to base-3, base-5, etc.
+
+Develop a GUI version using Qt for desktop or Flutter wrapper for Android/iOS.

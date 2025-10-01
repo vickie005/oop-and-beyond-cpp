@@ -1,0 +1,27 @@
+# VS Code settings
+.vscode/
+
+# Build and output folders
+output/
+build/
+bin/
+obj/
+
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Debug files
+*.pdb
+*.idb
+*.ilk
+
+# Temporary / cache files
+*.log
+*.tmp
+*.swp

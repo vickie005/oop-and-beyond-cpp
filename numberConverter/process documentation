@@ -1,0 +1,75 @@
+# 📘 Process Documentation
+
+## 1. Project Title
+
+Automation of Number System Conversions in C++
+
+## 2. Objective
+
+To design and implement a C++ program that automates number system conversions between Decimal, Binary, Octal, Hexadecimal, and handles negative numbers, 1’s complement, and 2’s complement representations.
+
+## 3. Scope
+
+The program accepts user input in different number systems.
+
+Converts numbers between bases (Decimal ↔ Binary, Octal, Hexadecimal).
+
+Handles both positive and negative integers.
+
+Computes 1’s complement and 2’s complement for binary numbers.
+
+Provides a menu-driven interface (simple console GUI).
+
+## 4. Tools & Technologies
+
+Programming Language: C++ (C++98 standard for Falcon compatibility)
+
+IDE/Compiler: Falcon C++ (MinGW-based)
+
+Platform: Windows (runs also on Linux / Termux with g++)
+
+## 5. Process Workflow
+
+Requirement Gathering: Identify number systems and operations needed.
+
+Algorithm Design: Write conversion logic (Decimal ↔ Binary/Octal/Hex, Complements).
+
+Implementation: Code everything in a single C++ file with functions.
+
+Testing:
+
+Test for positive numbers (e.g., 10 → 1010).
+
+Test for negative numbers (e.g., -15 → -1111).
+
+Test complements (e.g., 1010 → One’s = 0101, Two’s = 0110).
+
+Documentation: Prepare process & program documentation.
+
+Deployment: Runs locally (console app); can be packaged later for Android/iOS via Termux or C++ mobile wrappers.
+
+## 6. Roles & Responsibilities
+
+Since this is done individually (though initially designed for groups of 5):
+
+Developer: Victory Mwendwa
+
+Responsibilities: Requirement analysis, coding, testing, documentation.
+
+## 7. Challenges & Solutions
+
+Problem: Falcon C++ uses old compilers, modern C++11 syntax not supported.
+
+Solution: Rewrite code in C++98 style (classic for loops).
+
+Problem: Handling negative numbers in conversions.
+
+Solution: Store sign separately, convert absolute value, re-attach sign.
+
+## 8. Expected Output
+
+Menu-driven interface.
+
+Correct conversions between number systems.
+
+Display of 1’s and 2’s complements for binary inputs.
